@@ -47,82 +47,229 @@ table {
 	border-spacing: 0;
 }
 
+* {
+    color: #000000;
+}
 
 
 /***** container ****/
 .container {
     width: 1200px;
-    margin: 0 auto; 
-    margin-bottom: 50px;
-}
-
-.container-fluid {
-    width: 100%;
-    margin: 0 auto; 
-    margin-bottom: 50px;
+    margin: 0 auto;
+    margin-bottom: 24px;
 }
 /***** container ****/
 
 
-
 /***** box ****/
 .box {
-    margin-bottom: 50px;
+    margin-bottom: 48px;
 }
 
 .box_title-header {
+    padding-top: 47px;
+    padding-bottom: 17px;
     border-bottom: 2px black solid;
-    margin-bottom: 50px;
 }
 
 .box-header{
     border-bottom: 1px gray solid;
-    margin-bottom: 30px;
+    padding-bottom: 8px;
+    margin-bottom: 16px;
 }
 
-.box-item {
+.box-white{
+    border-bottom: 1px white solid;
+}
+
+.box-item .base{
     font-size: 24px;
-    line-height: 34px;
-    color: #000000;
+    line-height: 36px;
     margin-bottom: 24px;
+}
+
+.box-item .work{
+    font-size: 24px;
+    line-height: 36px;
+}
+
+
+.box-center {
+    width:300px; 
+    margin: 0 auto;
 }
 /***** box ****/
 
 
+/***** border ****/
+.bl-1{
+    border-left: 1px;
+    border-style: solid;
+}
+
+.bc-white {
+    border-color: white;
+}
+
+.bc-96A9C4 {
+    border-color: #96A9C4;
+}
+/***** border ****/
+
+/***** margin ****/
+.ml-395 {
+    margin-left: 395px;
+}
+
+.ml-24 {
+    margin-left: 24px;
+}
+.mt-36 {
+    margin-top: 36px;
+}
+
+.mb-72 {
+    margin-bottom: 72px;
+}
+
+/***** margin ****/
+
+/***** padding ****/
+.pt-24 {
+    padding-top: 24px;
+}
+.pb-16 {
+    padding-bottom: 16px;
+}
+.pb-24 {
+    padding-bottom: 24px;
+}
+.pb-36 {
+    padding-bottom: 36px;
+}
+.pl-24 {
+    padding-left: 24px;
+}
+/***** padding ****/
+
+/***** text ****/
+.text-center{
+    text-align: center;
+}
+
+.text-a00404{
+    color: #A00404;
+}
+
+.text-white {
+    color:white;
+}
+
+.p_work {
+    font-style: 20px;
+    line-height: 30px;
+}
+
+/***** text ****/
+
+
+/***** size ****/
+.width-996 {
+    width:996px;
+}
+/***** size ****/
+
+
+/***** bg ****/
+.bg_415165 {
+    background: #415165;
+}
+/***** bg ****/
 
 
 /***** title ****/
 .h1_title {
     font-size: 80px;
+    line-height: 94px;
     font-family: Roboto,Regular;
     width: 100px;
-    padding-top: 50px;
-    padding-bottom: 30px;
 }
-  
+
 .h2 {
-    font: normal normal normal 32px/43px Noto Sans;
+    font-size: 32px;
+    line-height: 43px;
     letter-spacing: 0px;
-    color: #000000;
     opacity: 1;
 }
 
+.h2_lh45 {
+    line-height: 45px;
+}
 
 .mark {
     font-size: 24px;
-    font: normal normal medium 24px/28px Roboto;
+    line-height: 48px;
     letter-spacing: 0px;
-    color: #A00404;
 }
 /***** title ****/
 
 
-/***** avatar ****/
+/***** images ****/
 .avatar {
     width: 324px;
     height: 324px;
+    padding-top: 48px;
+    padding-bottom: 48px;
     opacity: 1;
 }
-/***** avatar ****/
+
+.hex-img {
+    display: block;
+    width: 90px;
+    height: 90px;
+}
+
+.simtree-img {
+    width: 90px;
+    height: 90px;
+}
+
+.footer_img {
+    width: 48px;
+    height: 48px;
+    padding-left: 24px;
+}
+/***** images ****/
 
 
+/***** text ****/
+.ts24 {
+    font-style: 24px;
+    line-height: 34px;
+}
+/***** text ****/
+
+
+/***** ul. li  ****/
+ul.skills li {
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+ul.list li {
+    font-size: 24px;
+    line-height: 36px;
+    margin-top: 24px;
+}
+
+ul.contact li {
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 16px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+/***** ul. li ****/
